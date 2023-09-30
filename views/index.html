@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center">Creating User</h1>
+    <div style="text-align: center">
+        <form action="/users" method="POST" enctype="multipart/form-data">
+            <div>
+                <input type="text" name="name" placeholder="Enter Your Name">
+            </div>
+            <br>
+            <div>
+                <input type="text" name="age" placeholder="Enter Your Age">
+            </div>
+            <br>
+            <div style="margin-left: 4rem;">
+                <input type="file" name="image">
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
